@@ -30,7 +30,6 @@ public class TicTacToe {
 			System.out.println("Player 1 is O and Player 2 is X. Since player 2 is X, they go first");
 			player1Goes = false;
 		}
-		// add a win cond for the while loop below
 		while (!board.isFilled() && !board.winnerExists()) {
 			if (player1Goes) {
 				System.out.println("Player 1: Enter the row and column you want to place your " + player1.getSymbol() + ": ");
